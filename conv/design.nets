@@ -1,16 +1,17 @@
-net clk_BUFGP_net_top_wire 5
-	inst_2 CLKARDCLK
-	inst_3 CLKARDCLK
-	inst_2 CLKBWRCLK
-	inst_3 CLKBWRCLK
-	inst_4 O
+net clk_BUFGP_net_top_wire 10
+	inst_10 CLKARDCLK
+	inst_11 CLKARDCLK
+	inst_10 CLKBWRCLK
+	inst_11 CLKBWRCLK
+	inst_5 CLK
+	inst_6 CLK
+	inst_7 CLK
+	inst_8 CLK
+	inst_9 CLK
+	inst_12 O
 endnet
 
-net net_292 6
-	inst_2 ADDRENA
-	inst_3 ADDRENA
-	inst_2 ADDRENB
-	inst_3 ADDRENB
-	inst_2 REGCEB
-	inst_3 REGCEB
-endnet
+net some_net 2
+	inst_10 DOUTADOUT[0]
+	inst_5 A[0]
+endnet	

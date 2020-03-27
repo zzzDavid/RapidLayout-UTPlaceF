@@ -1,3 +1,8 @@
-inst_2 RAMB36E2
-inst_3 RAMB36E2
-inst_4 BUFGCE
+inst_5 DSP48E2
+inst_6 DSP48E2
+inst_7 DSP48E2
+inst_8 DSP48E2
+inst_9 DSP48E2
+inst_10 RAMB36E2
+inst_11 RAMB36E2
+inst_12 BUFGCE
